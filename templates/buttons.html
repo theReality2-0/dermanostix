@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    color:white;
+    border: 4px solid mediumvioletred;
+    transition-duration: 0.4s;
+    padding:60px 60px;
+    font-size:30px;
+    position:absolute;
+    left:200px;
+    top:500px;
+    font-family: impact
+    /*font-style: italic;*/
+    }
+
+    .button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.7);
+    color:black;
+    background-color: mediumvioletred;
+    }
+
+    .b2 {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    color:white;
+    border: 4px solid dodgerblue;
+    transition-duration: 0.4s;
+    padding:60px 60px;
+    font-size:30px;
+    position:absolute;
+    right:270px;
+    top:500px;
+    font-family: impact;
+    /*font-style: italic;*/
+    }
+
+    .b2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.7);
+    color:black;
+    background-color: dodgerblue;
+    }
+
+    body {
+    background-image: url("https://i.pinimg.com/originals/9e/b6/8e/9eb68e98831a5c4b8bfc2ee93e450536.jpg")
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1 style = "text-align: center;font-size:92px;font-family:impact;margin-top:0.2em;color:white">DERMANOSTIX</h1>
+<h2 style = "text-align: center;color:white">Diagnose skin lesions with one click!</h2>
+<p style="padding-top:.2em;margin-left:400px;color:white;padding-top:50px;font-size:18px;margin-right:300px">We have created an easy to use, free web app that can diagnose your skin leisons as one of seven different with one click! We will simply take a picture of your skin lesion usinng your webcam, and using AI techniques, your diagnosis will be lightning fast and flawlessly accurate. To learn more about it, or us, please visit our website.</p>
+<div>
+<a href="https://dermanostics.weebly.com"><button class="button">Go to the website</button></a>
+<a href="{{url_for('video_stream')}}"><button class = "b2">Diagnose!</button></a>
+</div>
+</body>
+</html>

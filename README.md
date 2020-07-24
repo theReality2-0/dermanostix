@@ -12,7 +12,7 @@ This is an AI tool to identify and classify skin lesions.
 
 4. Type `git init` and press Enter. Then type `git remote add origin https://github.com/theReality2-0/dermanostix.git` and hit Enter. Finally, type `git pull origin master` and press Enter. This will copy and paste all of the code into your new project.
 
-5. Enter `pip install flask opencv-python-headless numpy` into Terminal.
+5. Enter `pip install flask opencv-python-headless numpy torch torchvision` into Terminal.
 
 6. If you are on Windows, type `set FLASK_APP=app.py` and hit Enter. Otherwise, type `export FLASK_APP=app.py` and hit Enter.
 
